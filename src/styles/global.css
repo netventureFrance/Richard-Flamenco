@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --color-flamenco-50: #fef7ed;
+  --color-flamenco-100: #fdecd6;
+  --color-flamenco-200: #fad5ab;
+  --color-flamenco-300: #f6b876;
+  --color-flamenco-400: #f19240;
+  --color-flamenco-500: #ee7712;
+  --color-flamenco-600: #df5e0a;
+  --color-flamenco-700: #b9460a;
+  --color-flamenco-800: #933810;
+  --color-flamenco-900: #773010;
+  --color-flamenco-950: #401606;
+
+  --color-rojo-50: #fef2f2;
+  --color-rojo-100: #fee2e2;
+  --color-rojo-200: #fecaca;
+  --color-rojo-300: #fca5a5;
+  --color-rojo-400: #f87171;
+  --color-rojo-500: #ef4444;
+  --color-rojo-600: #dc2626;
+  --color-rojo-700: #b91c1c;
+  --color-rojo-800: #991b1b;
+  --color-rojo-900: #7f1d1d;
+  --color-rojo-950: #450a0a;
+
+  --color-negro-50: #f5f5f5;
+  --color-negro-100: #e5e5e5;
+  --color-negro-200: #d4d4d4;
+  --color-negro-300: #a3a3a3;
+  --color-negro-400: #737373;
+  --color-negro-500: #525252;
+  --color-negro-600: #404040;
+  --color-negro-700: #2e2e2e;
+  --color-negro-800: #262626;
+  --color-negro-900: #1f1f1f;
+  --color-negro-950: #1a1a1a;
+
+  --color-oro-50: #fffbeb;
+  --color-oro-100: #fef3c7;
+  --color-oro-200: #fde68a;
+  --color-oro-300: #fcd34d;
+  --color-oro-400: #fbbf24;
+  --color-oro-500: #f59e0b;
+  --color-oro-600: #d97706;
+  --color-oro-700: #b45309;
+  --color-oro-800: #92400e;
+  --color-oro-900: #78350f;
+  --color-oro-950: #451a03;
+
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-negro-900);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
